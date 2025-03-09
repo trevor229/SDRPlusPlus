@@ -234,6 +234,7 @@ int sdrpp_main(int argc, char* argv[]) {
 
     defConfig["offsets"]["SpyVerter"] = 120000000.0;
     defConfig["offsets"]["Ham-It-Up"] = 125000000.0;
+    defConfig["offsets"]["Ham-It-Down"] = -1500000000.0;
     defConfig["offsets"]["MMDS S-band (1998MHz)"] = -1998000000.0;
     defConfig["offsets"]["DK5AV X-Band"] = -6800000000.0;
     defConfig["offsets"]["Ku LNB (9750MHz)"] = -9750000000.0;
